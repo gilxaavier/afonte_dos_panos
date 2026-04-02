@@ -138,9 +138,9 @@ export function PromotionsCarousel() {
                       </p>
 
                       {/* Preço */}
-                      <div className="flex items-baseline gap-3 mb-4">
+                      <div className="flex flex-wrap items-baseline gap-2 md:gap-3 mb-4">
                         {promo.startsFrom && (
-                          <span className="text-xs text-muted-foreground uppercase">
+                          <span className="text-xs text-muted-foreground uppercase w-full md:w-auto">
                             a partir de
                           </span>
                         )}

@@ -59,18 +59,17 @@ export function Hero() {
         <div className="flex flex-col gap-3">
           <Button
             size="lg"
-            className="w-full bg-gray-400 cursor-not-allowed text-primary-foreground font-bold text-base h-14 gap-3 shadow-lg shadow-gray-400/30 opacity-60"
+            className="w-full bg-[#d6a22e] hover:bg-[#c4921b] text-black font-bold text-base h-14 gap-3 shadow-lg shadow-[#d6a22e]/30"
             asChild
-            disabled
           >
             <a 
-              // href={LinkCatalog()}
+              href="https://afontedospanos2.lojavirtualnuvem.com.br/"
               target="_blank" 
               rel="noopener noreferrer"
-            >
+>
               <ExternalLink className="w-5 h-5" />
-              Compre pelo Site (Em manutenção)
-            </a>
+              Compre pelo Site
+              </a>
           </Button>
 
           <Button
