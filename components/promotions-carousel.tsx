@@ -187,7 +187,7 @@ export function PromotionsCarousel() {
               prevSlide()
               handleInteraction()
             }}
-            className="z-50 absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-black/70 text-white flex items-center justify-center cursor-pointer touch-none"
+            className="z-50 absolute left-2 bottom-8 w-14 h-14 rounded-full bg-black/70 text-white flex items-center justify-center cursor-pointer touch-none"
           >
             <ChevronLeft />
           </button>
@@ -199,7 +199,7 @@ export function PromotionsCarousel() {
               nextSlide()
               handleInteraction()
             }}
-            className="z-50 absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-black/70 text-white flex items-center justify-center cursor-pointer touch-none"
+            className="z-50 absolute right-2 bottom-8 w-14 h-14 rounded-full bg-black/70 text-white flex items-center justify-center cursor-pointer touch-none"
           >
             <ChevronRight />
           </button>
