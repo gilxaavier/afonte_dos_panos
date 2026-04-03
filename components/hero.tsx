@@ -1,6 +1,6 @@
 "use client"
 
-import { LinkCatalog, LinkWhatsApp } from "@/app/page"
+import { LinkCatalog, LinkSite, LinkWhatsApp } from "@/app/page"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { ExternalLink, Medal, MessageCircle, Package, ShieldCheck, User, Volleyball } from "lucide-react"
@@ -63,7 +63,7 @@ export function Hero() {
             asChild
           >
             <a 
-              href="https://afontedospanos2.lojavirtualnuvem.com.br/"
+              href={LinkSite()}
               target="_blank" 
               rel="noopener noreferrer"
 >

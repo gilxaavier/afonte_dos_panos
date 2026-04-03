@@ -2,7 +2,7 @@
 
 import { Instagram, MessageCircle, ExternalLink, MapPin, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { LinkCatalog, LinkInstagram, LinkWhatsApp } from "@/app/page"
+import { LinkCatalog, LinkInstagram, LinkSite, LinkWhatsApp } from "@/app/page"
 import { FaWhatsapp } from "react-icons/fa"
 
 export function Footer() {
@@ -45,7 +45,7 @@ export function Footer() {
             @afonte_dos_panos
           </a>
           <a 
-            // href={LinkCatalog()}
+            href={LinkSite()}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"

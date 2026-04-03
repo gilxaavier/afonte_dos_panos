@@ -23,6 +23,10 @@ export function LinkCatalog() {
   return "https://drive.google.com/drive/folders/11N0YSxgnXPSvjPVWqGiS9NqrC7xdKTJr"
 }
 
+export function LinkSite(){
+  return "https://afontedospanos2.lojavirtualnuvem.com.br/"
+}
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-background overflow-x-hidden">
