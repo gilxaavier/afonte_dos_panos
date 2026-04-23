@@ -44,15 +44,13 @@ export function Footer() {
             <Instagram className="w-4 h-4" />
             @afonte_dos_panos
           </a>
-          <a 
-            href={LinkSite()}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+          <button 
+            disabled
+            className="flex items-center gap-2 text-sm text-muted-foreground cursor-not-allowed opacity-50"
           >
             <ExternalLink className="w-4 h-4" />
-            Site Oficial
-          </a>
+            Site em Manutenção...
+          </button>
         </div>
 
         {/* Info */}
