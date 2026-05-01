@@ -59,11 +59,17 @@ export function Hero() {
         <div className="flex flex-col gap-3">
           <Button
             size="lg"
-            className="w-full bg-[#d6a22e] hover:bg-[#d6a22e] text-black font-bold text-base h-14 gap-3 shadow-lg shadow-[#d6a22e]/30 disabled:opacity-50 disabled:cursor-not-allowed"
-            disabled
+            className="w-full bg-[#d6a22e] hover:bg-[#c09620] text-black font-bold text-base h-14 gap-3 shadow-lg shadow-[#d6a22e]/30"
+            asChild
           >
-            <ExternalLink className="w-5 h-5" />
-            Site em Manutenção...
+            <a
+              href={LinkSite()}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <ExternalLink className="w-5 h-5" />
+              Site Oficial
+            </a>
           </Button>
 
           <Button
