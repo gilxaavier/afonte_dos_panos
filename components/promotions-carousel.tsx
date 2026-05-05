@@ -12,17 +12,6 @@ import { FaWhatsapp } from "react-icons/fa"
 const promotions = [
   {
     id: 1,
-    title: "Compre 2 - Pague 1",
-    description: "Na compra de duas camisas selecionadas, você paga apenas uma.\nA segunda é por nossa conta.\n\n⚠️ Válido para itens selecionados e enquanto durar o estoque.",
-    originalPrice: "R$ 319,90",
-    discountPrice: "R$ 159,90",
-    discount: "50% OFF",
-    whatsappMessage: "Olá, quero montar um pedido Compre 2 - Pague 1",
-    image: "/pague1-leve2.jpeg",
-  },
-
-  {
-    id: 2,
     title: "Copa do Mundo 2026",
     description: "A paixão pelo futebol no estilo certo… Peças atuais e lançamentos com preço especial.",
     originalPrice: "R$ 250,00",
@@ -34,7 +23,7 @@ const promotions = [
     image: "/promo-copa.jpeg",
   },
   {
-    id: 3,
+    id: 2,
     title: "Combo Família",
     description: "Leve mais pagando menos. Perfeito para vestir todo mundo com economia.",
     originalPrice: "R$ 1.439,20",
@@ -46,7 +35,7 @@ const promotions = [
     image: "/promo-familia.jpeg",
   },
   {
-    id: 4,
+    id: 3,
     title: "Kit Casal",
     description: "Combine no estilo com quem você ama e aproveite o preço especial",
     originalPrice: "R$ 340,00",
